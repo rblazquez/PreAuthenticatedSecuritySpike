@@ -14,7 +14,7 @@ public class Person {
     private String firstName;
     private String lastName;
     private String username;
-    private Long owner;
+    private String owner;
 
     public String getFirstName() {
         return firstName;
@@ -40,11 +40,11 @@ public class Person {
         this.username = username;
     }
 
-    public Long getOwner() {
+    public String getOwner() {
         return owner;
     }
 
-    public void setOwner(Long owner) {
+    public void setOwner(String owner) {
         this.owner = owner;
     }
 }
